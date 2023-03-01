@@ -1,6 +1,3 @@
-# portfolio-page
-Desafio Rocketseat: criar uma página web para que seja seu portfolio e currículo utilizando HTML e CSS.
-
 <h1 align="center"> Página de Portfólio </h1>
 <p align="center">Uma página web para que seja um portfolio e currículo utilizando HTML e CSS</p>
 
