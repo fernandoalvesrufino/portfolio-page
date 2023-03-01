@@ -128,6 +128,15 @@ a {
 
   text-transform: uppercase;
   text-align: center;
+
+  transition: all 0.4s ease;
+}
+
+.tech .tags h2:hover {
+  color: #CB92B1;
+  background: #000000;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .experiences ul, .training ul{
@@ -152,4 +161,34 @@ a {
 .experiences ul li p span,
 .training ul li p span {
   font-weight: 400;
+}
+
+.content {
+  width: 100%;
+}
+
+.my-projects {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-projects h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.my-projects a {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  border-bottom: 1px solid var(--bg-cards);
+
+}
+
+.my-projects a:hover {
+  border-bottom: 1px solid var(--text-color);
 }
