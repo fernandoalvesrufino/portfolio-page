@@ -11,12 +11,17 @@
   --text-color: #837E9F;
   --bg-cards: #302F3D;
   --bg-techs: #CB92B1;
+  --border-photo: #00FF00;
+
 }
 
 body {
   background: var(--body-bg-color);
   font-family: 'Merriweather Sans', sans-serif;
   color: var(--text-color);
+  padding: 4rem;
+  display: flex;
+  gap: 6rem;
 }
 
 .card {
@@ -24,6 +29,42 @@ body {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   padding: 3rem 2rem;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.presentation .card {
+  width: 34.8rem;
+}
+
+.presentation-card {
+  text-align: center;
+}
+
+.presentation-card img {
+  width: 12.8rem;
+  height: 12.8rem;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  border: 2px solid var(--border-photo);
+}
+
+.presentation-card h2 {
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 2.9rem;
+  padding-bottom: 1rem;
+}
+
+.presentation-card p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  padding-bottom: 2rem;
 }
 
 .about-item {
@@ -36,3 +77,4 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
+
