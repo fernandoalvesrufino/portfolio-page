@@ -142,7 +142,7 @@ a {
   transform: scale(1.1);
 }
 
-.experiences ul, .training ul{
+.experiences ul, .training ul{ 
   margin-left: 4rem;
 }
 
@@ -286,6 +286,7 @@ section {
 }
 
 .post ul li {
+  margin-top: 1rem;
   margin-bottom: 0;
   list-style: none;
   line-height: 0.2;
