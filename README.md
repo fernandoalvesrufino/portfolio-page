@@ -1,7 +1,7 @@
 <h1 align="center"> Página de Portfólio </h1>
-<p align="center">Uma página web para que seja um portfolio e currículo utilizando HTML e CSS</p>
+<p align="center">Uma página web para ser usada como portfolio e currículo utilizando HTML e CSS</p>
 
-<br><br>
+<br>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
