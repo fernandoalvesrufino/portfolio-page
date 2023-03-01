@@ -50,7 +50,7 @@ a {
   text-align: center;
 }
 
-.presentation-card img {
+.presentation-card img, .post img {
   width: 12.8rem;
   height: 12.8rem;
   margin-bottom: 3rem;
@@ -163,11 +163,17 @@ a {
   font-weight: 400;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .content {
   width: 100%;
 }
 
-.my-projects {
+.my-projects, .recent-posts {
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
@@ -175,7 +181,7 @@ a {
   align-items: center;
 }
 
-.my-projects h2 {
+.my-projects h2, .recent-posts h2 {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
@@ -191,4 +197,90 @@ a {
 
 .my-projects a:hover {
   border-bottom: 1px solid var(--text-color);
+}
+
+.projects {
+  display: flex;
+  gap: 3rem;
+}
+
+.projects .card {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.projects .title-project {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.projects .description {
+  margin-bottom: 3rem;
+}
+
+.footer-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-project .info-github {
+  display: flex;
+  align-items: center;
+}
+
+.footer-project .info-github p + img {
+  margin-left: 1.6rem;
+}
+
+.footer-project .info-github img + p {
+  margin-left: 0.8rem;
+}
+
+.footer-project .stack {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.post {
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.post img {
+  border: 0;
+  margin: 0;
+}
+
+.post h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.post p, .post ul li {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.post .description-post {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 1px;
+}
+
+.post ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.post ul li {
+  margin-bottom: 0;
+  list-style: none;
 }
