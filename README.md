@@ -21,8 +21,7 @@
 ## Tecnologias 
 - HTML
 - CSS
-- Git
-- GitHub
+- Git e GitHub
 - Figma
 
 ## Projeto
