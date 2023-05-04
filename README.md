@@ -34,6 +34,8 @@ Rocketseat Challenge: create a web page to be used as your portfolio and resume 
 
 This project is under the MIT license.
 
+---
+
 by Fernando Rufino
 
 `Challenge created by Rocketseat`
