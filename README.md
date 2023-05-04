@@ -1,4 +1,42 @@
-<h1 align="center"> Portfolio page </h1>
+<h1 align="center">Portfolio Page</h1>
+
+<p align="center">A web page to be used as a portfolio and resume using HTML and CSS</p>
+<br>
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#readme-in-portuguese">README in Portuguese</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+<p align="center">
+  <img alt="Page image - desktop version" src="./assets/print-page.png" width="100%">
+</p>
+
+## Technologies
+
+- HTML
+- CSS
+- Git and GitHub
+- Figma
+
+## Project
+
+Rocketseat Challenge: create a web page to be used as your portfolio and resume using HTML and CSS.
+
+- To access the finished project, [click here](https://fernandoalvesrufino.github.io/portfolio-page/).
+
+
+## :memo: License
+
+This project is under the MIT license.
+
+by Fernando Rufino
+
+`Challenge created by Rocketseat`
 
 
 ## README in Portuguese
